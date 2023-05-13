@@ -32,7 +32,7 @@ const App = () => {
                 <About
                   aboutText="京都産業大学情報理工学部2年生. 情報セキュリティコース. 26卒. 福岡出身. IoTやBot、アプリ開発に興味があります！食べることが大好きです！"
                 />
-                <Hobby hobbyText="クラシックバレエ. 映画やドラマ. 観劇. ぷよクエ." />
+                <Hobby hobbyText="クラシックバレエ. 映画やドラマ. 観劇. ぷよクエ. アロマテラピー." />
                 <Interest interestText="セキュリティ. Python. Golang. Javascript. HTML/CSS." />
                 <Footer
                   twitterLink="https://www.twitter.com/777_ise_"
