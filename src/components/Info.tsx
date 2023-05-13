@@ -6,7 +6,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 type Props = {
   name: string;
   label: string;
-  knowMoreLink: string;
+  knowMoreLink?: string;
   mail: string;
   twitterLink?: string;
 };
@@ -21,11 +21,13 @@ export const Info = (props: Props) => {
       <section className="section-info">
         <h2 className="name">{name}</h2>
         <p className="stack">{label}</p>
-        <small>
-          <a href={knowMoreLink} target="_" rel="noopener noreferrer">
-            Know more
-          </a>
-        </small>
+        {knowMoreLink && (
+          <small>
+            <a href={knowMoreLink} target="_" rel="noopener noreferrer">
+              Know more
+            </a>
+          </small>
+        )}
         <div className="contact">
           <MailTo email={mail} subject="お話しましょう！" body="こんにちは！あまてく！" className="mailto">
             <EmailIcon className="icon" fontSize="small" />

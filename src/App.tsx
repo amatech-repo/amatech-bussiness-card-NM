@@ -26,20 +26,19 @@ const App = () => {
                 <Info
                   name="Nanami Matsuo"
                   label="あまてく 運営・企画"
-                  knowMoreLink="#"
-                  mail="#"
-                  twitterLink="https://twitter.com/#"
+                  mail="g2254630@cc.kyoto-su.ac.jp"
+                  twitterLink="https://twitter.com/777_ise_"
                 />
                 <About
-                  aboutText="追加"
+                  aboutText="京都産業大学情報理工学部2年生. 情報セキュリティコース. 26卒. 福岡出身. IoTやBot、アプリ開発に興味があります！食べることが大好きです！"
                 />
-                <Hobby hobbyText="追加" />
-                <Interest interestText="追加" />
+                <Hobby hobbyText="クラシックバレエ. 映画やドラマ. 観劇. ぷよクエ." />
+                <Interest interestText="セキュリティ. Python. Golang. Javascript. HTML/CSS." />
                 <Footer
-                  twitterLink="https://twitter.com/"
-                  githubLink="https://github.com/"
-                  instagramLink="#"
-                  linkedinLink="#"
+                  twitterLink="https://www.twitter.com/777_ise_"
+                  githubLink="https://www.github.com/matsuo1234567"
+                  instagramLink="https://www.instagram.com/m7nm03/"
+                  linkedinLink="https://www.linkedin.com/in/matsuonanami"
                 />
               </section>
             </div>
